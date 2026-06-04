@@ -5,38 +5,38 @@ import { Calendar, Car, CheckCircle2, ChevronRight, Clock3, Crown, Droplets, Gem
 const services = [
   {
     title: "Exterior Package",
-    price: "Starts at $50",
-    description: "Quick exterior refresh with size-based pricing for sedans, SUVs, and trucks.",
-    bullets: ["Sedans & Coupes: $50", "Mid-size SUV: $60", "Full-size SUV & Trucks: $70", "Mobile service available"],
+    price: "Starts at $45",
+    description: "Alkaline Foam pre-wash to avoid scratching and marring, Cherry foam contact wash, Wheels & Tires washed and coated, door jambs and seals, streak-free exterior windows.",
+    bullets: ["Sedans & Coupes: $45", "Mid-size SUV: $55", "Full-size SUV & Trucks: $60", "Mobile service available"],
   },
   {
-    title: "Essential Package",
-    price: "Starts at $80",
-    description: "Interior and exterior detail package for a solid full reset at an affordable price.",
-    bullets: ["Sedans & Coupes: $80", "Mid-size SUV: $120", "Full-size SUV & Trucks: $150", "Interior + exterior"],
+    title: "Essential Package"
+    price: "Starts at $120",
+    description: "Everything included in the Exterior Package + Full interior vacuum, Basic scrub & wipe down of interior vinyl, plastics, and leather, Full interior Sanitation & Deodorization.",
+    bullets: ["Sedans & Coupes: $120", "Mid-size SUV: $130", "Full-size SUV & Trucks: $150", "Interior + exterior"],
   },
   {
     title: "Premium Package",
-    price: "Starts at $120",
-    description: "Upgraded interior and exterior detail for customers who want a deeper clean and better finish.",
-    bullets: ["Sedans & Coupes: $120", "Mid-size SUV: $160", "Full-size SUV & Trucks: $210", "Premium finish"],
+    price: "Starts at $150",
+    description: "Everything included in the Essential Package + leather & plastics conditioning, Carnuaba Wax (1-2 Months Paint Protection).",
+    bullets: ["Sedans & Coupes: $150", "Mid-size SUV: $160", "Full-size SUV & Trucks: $180", "Premium finish"],
   },
   {
     title: "Dripped Out Package",
-    price: "Starts at $160",
-    description: "Best value package with your top-tier detail experience for customers who want the full transformation.",
-    bullets: ["Sedans & Coupes: $160", "Mid-size SUV: $210", "Full-size SUV & Trucks: $250", "Best Value"],
+    price: "Starts at $200",
+    description: "Best value package with your top-tier detail experience, Great for hitting a reset on your vehicle and having it back to factory showroom quality.",
+    bullets: ["Sedans & Coupes: $200", "Mid-size SUV: $250", "Full-size SUV & Trucks: $300", "Best Value"],
   },
 ];
 
 const addOns = [
   {
     title: "Wax & Sealants",
-    text: "2–3 months of paint protection recommended for Vegas heat. Add for $30. Options: Cherry Wax, Carnauba Wax, or SiO2 Ceramic Sealant.",
+    text: "2–3 months of paint protection recommended for Vegas heat. Includes Clay Mitt and Iron Decon. Add a wax for $30. Options: Cherry Wax, Carnauba Wax, or SiO2 Ceramic Sealant for just $80 for sedans, $100 for SUV's, and $120 for Trucks.",
   },
   {
     title: "Interior Sanitizing",
-    text: "Mat shampooing and sanitizing for $30 (4–6 mats) plus a full interior fogger and sanitizing add-on for $20.",
+    text: "Mat shampooing and sanitizing for (4–6 mats) plus a full interior ozone and sanitizing add-on for $45.",
   },
   {
     title: "Ceramic Coating",
