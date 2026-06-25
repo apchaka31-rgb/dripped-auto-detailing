@@ -1,0 +1,1 @@
+export default function PriceTable({items}){return <div className="price-table">{items.map(([label,price])=><div key={label} className="price-row"><span>{label}</span><strong>{price}</strong></div>)}</div>}

@@ -1,0 +1,2 @@
+"use client"; import { useState } from "react";
+export default function GalleryGrid({images}){ const [active,setActive]=useState(null); return <><div className="gallery-grid">{images.map((img,i)=><button className="gallery-card" key={img.src} onClick={()=>setActive(img)}><img src={img.src} alt={img.alt} loading="lazy"/><span>{img.category || 'Dripped Detail'}</span></button>)}</div>{active&&<div className="lightbox" onClick={()=>setActive(null)}><button aria-label="Close image">×</button><img src={active.src} alt={active.alt}/></div>}</>}

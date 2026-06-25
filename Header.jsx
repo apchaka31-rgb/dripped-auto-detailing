@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { site, services } from "../lib/data";
+export default function Header(){ return <header className="site-header"><div className="nav-wrap"><Link className="brand" href="/"><span className="brand-mark">D</span><span><strong>DRIPPED</strong><small>Auto Detailing LV</small></span></Link><nav><Link href="/services">Services</Link><Link href="/gallery">Gallery</Link><Link href="/reviews">Reviews</Link><Link href="/service-areas">Service Areas</Link><Link href="/faq">FAQ</Link><Link href="/contact">Contact</Link></nav><div className="nav-actions"><a href={site.phoneHref} className="ghost">Call</a><a href="/contact" className="primary">Get Quote</a></div></div></header> }
