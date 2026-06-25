@@ -1,2 +1,0 @@
-import { site, services, locations, blogPosts } from "../lib/data";
-export default function sitemap(){const routes=["","/services","/add-ons","/gallery","/reviews","/results","/faq","/service-areas","/contact","/blog",...services.map(s=>`/services/${s.slug}`),...locations.map(l=>`/locations/${l.slug}`),...blogPosts.map(p=>`/blog/${p.slug}`)]; return routes.map(r=>({url:site.domain+r,lastModified:new Date(),changeFrequency:r===""?"weekly":"monthly",priority:r===""?1:.75}))}
